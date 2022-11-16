@@ -39,5 +39,19 @@ const requestHandler=(req,res)=>{
         res.end();    
     }
 }
+//first way
+// module.exports=requestHandler;
 
-module.exports=requestHandler;
+//second way
+// module.exports={
+//     handler:requestHandler,
+//     someText:"Some Hard coded text"
+// };
+
+// //third way
+// module.exports.handler=requestHandler;
+// module.exports.someText="Arjun"
+
+//short cut of third way
+exports.handler=requestHandler;
+exports.someText="Simran";
