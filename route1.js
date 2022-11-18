@@ -54,4 +54,4 @@ const requestHandler=(req,res)=>{
 
 //short cut of third way
 exports.handler=requestHandler;
-exports.someText="Simran";
+exports.someText="Simran Kaur Nagi";
