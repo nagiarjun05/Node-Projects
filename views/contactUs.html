@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <style>
+        body {
+            background-image:url("https://media.istockphoto.com/vectors/call-center-hotline-worker-smiling-helpline-operator-with-headset-vector-id1291353608?k=20&m=1291353608&s=612x612&w=0&h=NNTdCHMS-MFQrQAF255JRQnrus3nhLBA7PdX4vgd3mQ=");
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-size:100% 100%;
+        }
+        fieldset{   
+            background-color:rgba(255,255,255,0.5);
+            border-color:white;
+        }
+        form{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: larger;
+            border-color: aliceblue;    
+        }
+    </style>
+</head>
+<body>
+<form action="/success">
+    <fieldset>
+        <h1>Book a Call</h1>
+        <p>Book a call slot and our reprentative will call you within 1hr of selected slot</p>
+        <br>
+        <label for="username">Name:</label>    
+        <input type="text" id="username" name="username" placeholder="Your Name"> <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="abced@xyz.com"><br><br>
+        <input type="submit" value="Get a Call" style="background-color:orange;border-color:orange;">
+    </fieldset>    
+</form>
+</body>
+</html>
